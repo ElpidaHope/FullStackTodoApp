@@ -1,0 +1,15 @@
+@use '../utils/functions' as f;
+
+.main {
+  background: linear-gradient(to right, hsl(192, 100%, 67%) ,hsl(280, 87%, 65%));
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    position: fixed;
+    top: 10%;
+    // left: 10%;
+  }
+}
