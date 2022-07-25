@@ -93,7 +93,7 @@ function Register() {
           <input type="submit" value="Register" className={style.signin}/>
         </div>
         <div className={style.register}>
-          <Link to='/'>
+          <Link to='/signin'>
             Signin
           </Link>
         </div>
