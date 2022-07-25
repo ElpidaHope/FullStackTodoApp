@@ -35,7 +35,6 @@ const userSignup = asyncHandler(async (req, res) => {
     _id: newUser.id,
     name: newUser.name,
     email: newUser.email,
-    todoPositions: newUser.todoPositions,
     token: generateToken(newUser.email)
   })
 })
@@ -55,7 +54,6 @@ const userSignin = asyncHandler(async (req, res) => {
     res.status(200).json({
       name: user.name,
       email: user.email,
-      todoPositions: user.todoPositions,
       token: generateToken(user.email)
     })
   }
